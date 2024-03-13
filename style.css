@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: red;
+    color: white;
+    position: sticky;
+    top: 0;
+    left: 0;
+    max-height: 72px;
+    z-index: 1000;
+}
+
+header li {
+    list-style: none;
+    text-decoration: none;
+}
+
+h1 a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header, h2 {
+    font-family: "Anta", sans-serif
+}
+
+.navbar-nav .nav-link.active {
+    color: white;
+}
+
+.nav-link {
+    text-align: center;
+    color: white;
+}
+
+section h2 {
+    color: red;
+}
+
+.hr {
+    border: 2px solid red;
+}
+
+.hr2 {
+    border: 2px solid red;
+    margin-top: 70px;
+}
+
+ /* ALTERA O TAMANHO DAS IMAGENS DO CARROSSEL */
+.carousel .carousel-item img {
+    height: 100vh;
+    width: 100%;
+}
+
+.carousel {
+    padding-top: 30px;
+}
+
+section {
+    padding-top: 72px;
+}
+
+.card {
+    margin-bottom: 24px;
+    width: 300px;
+}
+
+.card img {
+    height: 400px;
+}
+
+.lista-de-botoes {
+    list-style: none;
+    margin-right: 8px;
+}
+
+.lista-de-botoes #botao-comprar {
+    width: 100px;
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    margin-top: 30px;
+}
+
+.sobre-a-loja {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.contact {
+    margin: auto 20px;
+}
+
+.contact form {
+    width: 400px;
+}
+
+.contact input {
+    background-color: grey;
+}
+
+form button {
+    margin: 0 auto;
+}
+
+.accord h2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+footer p a {
+    text-decoration: none;
+    font-size: 18px;
+    transition: all ease .1s;
+}   
+
+footer p a:hover {
+    border-top: 4px solid blue;
+}
+
+@media screen and (max-width: 640px) {
+    .card {
+        margin-bottom: 56px;
+    }
+
+    form button {
+        width: 150px
+    }
+}
+
+@media screen and (min-width: 641px) and (max-width: 991px) {
+    .carousel-item img {
+        height: 450px;
+    }
+
+    .card {
+        margin-bottom: 56px;
+    }
+
+    form button {
+        width: 150px;
+    }
+}
