@@ -107,13 +107,14 @@ section {
     width: 400px;
 }
 
-.contact input {
+/* .contact input {
     background-color: grey;
-}
+} */
 
 form button {
     margin: 0 auto;
 }
+
 
 .accord h2 {
     display: flex;
@@ -139,7 +140,16 @@ footer p a:hover {
     border-top: 4px solid blue;
 }
 
+.form-control:focus {
+    border-color: red;
+    box-shadow: 0 0 0 0.2rem rgba(249, 4, 4, 0.5);
+}
+
 @media screen and (max-width: 640px) {
+    .carousel-item img {
+        height: 100px;
+    }
+    
     .card {
         margin-bottom: 56px;
     }
