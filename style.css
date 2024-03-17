@@ -31,6 +31,15 @@ header, h2 {
 .navbar-nav .nav-link.active {
     color: white;
 }
+                        /* MUDA A COR DO AZUL DO BOOTSTRAP QUANDO ESTAMOS EM DETERMINADA SECTION */
+.nav .nav-link.active{
+    background-color: white;
+    color: red;
+}
+                    /* QUANDO ADICIONAMOS O NAV, O BOOTSTRAP POR PADRAO COLOCA UM HOVER NOS BOTOES E NOS TITULOS, COM ESSE COMANDO REMOVEMOS ISSO */
+.nav .nav-link, .navbar-brand, .navbar-brand:hover{
+    color: white;
+}
 
 .nav-link {
     text-align: center;
